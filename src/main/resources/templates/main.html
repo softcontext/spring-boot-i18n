@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8"/>
+<title th:text="#{main.title}">title</title>
+</head>
+<body>
+
+	<h2 th:text="#{main.hello(${who})}">hello</h2>
+	<h2 th:text="#{main.home}">home</h2>
+
+	<a href="?lang=ko" th:text="#{lang.korean}">ko</a>
+	<a href="?lang=en" th:text="#{lang.english}">en</a>
+	
+</body>
+</html>
